@@ -10,7 +10,6 @@ public class ChuckNorrisApp {
 
 	public static void main(String[] args) {
 		ChuckNorrisApiService service = new ChuckNorrisApiService();
-
 		ChuckNorrisJoke joke = service.getChuckNorrisJoke();
 		log.info(joke.getJoke());
 
